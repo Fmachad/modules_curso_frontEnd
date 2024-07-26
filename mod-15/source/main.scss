@@ -1,0 +1,101 @@
+@use 'config/reset';
+@use 'config/variaveis.scss';
+@use 'sass:math';
+
+@mixin elementForm () {
+    padding: 8px;
+    display: block;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+@function pixelParaEm($alvoEmPixel, $contextoEmPixel: 16px) {
+    @return math.div($alvoEmPixel , $contextoEmPixel)+em;
+}
+
+body {
+    background-color: rgb(234, 255, 255);
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 16px 0;
+    background-color: variaveis.$corPrincipal;
+    text-align: center;
+    color: #fff;
+}
+
+.form-container {
+    height: calc(100vh - 70px);
+    // background-color: rgba(0, 0, 255, 0.345);//
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 660px;
+
+    h2 {
+        max-width: 480px;
+        font-weight: 500;
+        font-size: pixelParaEm(30px);
+        text-align-last: left;
+    }
+
+    form {
+        width: 100%;
+        max-width: 480px;
+        margin-top: 40px;
+
+        label {
+            font-weight: 200;
+            cursor: pointer;
+
+        }
+
+        input {
+            @include elementForm();
+            background-color: transparent;
+            border: none;
+            border-bottom: 3px solid variaveis.$corPrincipal;
+        }
+
+        button {
+            @include elementForm();
+            background-color: variaveis.$corSecundaria;
+            border: none;
+            font-weight: bold;
+            font-size: 18px;
+            cursor: pointer;
+            color: #fff;
+
+            &:hover {
+                background-color: darken(variaveis.$corSecundaria, 30%);
+            }
+        }
+    }
+}
+
+@media screen and (max-width: variaveis.$mobile) {
+    body {
+        background-color: blue;
+    }
+
+    h2 {
+        margin-top: 2em;
+        color: #fff;
+        font-size: 2em;
+        padding: 0 40px;
+    }
+
+    form {
+        padding: 0 2em;
+        color: #fff;
+    }
+
+
+}
