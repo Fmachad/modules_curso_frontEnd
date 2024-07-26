@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portal de notícias</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="./dropdown.css">
+    </head>
+
+    <body>
+        <!--Cabecalho -->
+        <header>
+            <div class="container">
+                <h1>Mac & Ram Pages</h1>
+                <nav>
+                    <ul class="menu">
+                        <li>
+                            <a href="#about">Sobre a loja</a>
+                        </li>
+                        <li>
+                            <a href="#services">Nossos Produtos</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section>
+            <div class="container">
+                <h2>Sobre a loja</h2>
+                <div id="about">
+                    <img src="./img/image_main.jpg" alt="Faixada da Loja">
+                    <div>
+                        <p>A Mac & Ram Pages é Ouma empresa especializada em web design que se destaca no mercado graças ao
+                            seu
+                            compromisso em oferecer soluções personalizadas e inovadoras para seus clientes. Com uma
+                            equipe
+                            altamente capacitada e experiente, a empresa oferece serviços de planejamento,
+                            desenvolvimento e
+                            implementação de projetos web que atendem às necessidades específicas de cada cliente.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section >
+            <div class="container">
+                <h2>Produtos</h2>
+                <div class="noticias">
+                    <article class="noticia">
+                        <img src="./img/image02.jpg" alt="">
+                        <h1>Produto</h1>
+                        <h3>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
+                        </h3>
+                        <button class="button" type="button">Saiba mais</button>
+                    </article>
+                    <article class="noticia">
+                        <img src="./img/image03.jpg" alt="">
+                        <h1>Produto</h1>
+                        <h3>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
+                        </h3>
+                        <button class="button" type="button">Saiba mais</button>
+                    </article>
+                    <article class="noticia">
+                        <img src="./img/image04.jpg" alt="">
+                        <h1>Produto</h1>
+                        <h3>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
+                        </h3>
+                        <button class="button" type="button">Saiba mais</button>
+                    </article>
+                    <article class="noticia">
+                        <img src="./img/image05.jpg" alt="">
+                        <h1>Produto</h1>
+                        <h3>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
+                        </h3>
+                        <button class="button" type="button">Saiba mais</button>
+                    </article>
+                </div>
+            </div>
+
+        </section>
+        </main>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
+            </script>
+
+        <script>
+            $(document).ready(function () {
+                $('.botao-menu button').click(function () {
+                    $('.menu').slideToggle();
+                })
+            })
+        </script>
+    </body>
+
+</html>
