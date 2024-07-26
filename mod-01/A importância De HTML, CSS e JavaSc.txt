@@ -1,0 +1,11 @@
+A importância De HTML, CSS e JavaScript na construção de paginas Web:
+
+	- O HTML é o responsável por criar a estrutura do código, facilitando assim um entendimento mais claro, tanto por quem esta desenvolvelndo quanto pelos navegadores. A semântica é muito importante, pois por meio de padrões ja pré-estabelecidos podemos customizar nossas ideias de forma bem mais prática e compreensível.
+
+	- O CSS é o responsavel por trazer vida (visual) ao nosso código, é a aparência que damos aos nossos projetos.
+Por meio de seletores, podemos determinar exatamente o que que queremos mostrar na tela aos usuários.
+
+	- JavaScript é o cérebro de todo esse corpo. Ele é o responsavel por todos os comportamentos da página.
+a part5e lógica que trás dinamismo as nossas páginas.
+
+
