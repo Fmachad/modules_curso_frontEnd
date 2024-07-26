@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+
+.container {
+    max-width: 50%;
+    margin-top: 5em;
+}
+
+.container h2 {
+    color:aquamarine;
+    font-weight: 100;
+    margin-bottom: 1em;
+}
+
+form {
+    background-color: aquamarine;
+    padding: 22px;
+}
+
+.btn {
+    margin-top: 12px;
+}
