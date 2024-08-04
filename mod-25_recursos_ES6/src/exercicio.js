@@ -1,3 +1,5 @@
+
+//Exercicio modulo 25
 const alunos = [
     { nome: 'Franklin', nota: 7.5 },
     { nome: 'Dominika', nota: 9.5 },
