@@ -1,0 +1,22 @@
+"use strict";
+let estaChovendo = false;
+estaChovendo = true;
+let idade = 38;
+let altura = 1.85;
+const nacionalidade = 'brasileiro';
+const colegas = ['franklin', 'dominika', 'bernadetta'];
+const tecnologias = ['html', 'css', 'js'];
+const notas = [10, 8, 9, 9];
+const listgem = ['franklin', true, 85];
+const lista = ['franklin', true, 85];
+let idadeDaAna = 30;
+idadeDaAna = '30 anos';
+idadeDaAna = true;
+//VARIAVEL DO TIPO "any" ACEITA QUALQUER VALOR ===>>> USAR DE FORMA MODERADA
+let dadosDoApi;
+dadosDoApi = 10;
+dadosDoApi = true;
+dadosDoApi = 'teste';
+dadosDoApi = [1, 2, 3];
+dadosDoApi = 'string';
+let curso = 'front-end';
