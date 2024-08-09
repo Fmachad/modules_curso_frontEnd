@@ -6,6 +6,6 @@ function saudacao(nome) {
     return "Olá " + nome;
 }
 let resultado = multiplicar(7, 3);
-console.log(resultado); // Output: 12
+console.log(resultado);
 let cumprimento = saudacao("Franklin");
 console.log(cumprimento);
