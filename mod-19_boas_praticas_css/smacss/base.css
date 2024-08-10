@@ -1,0 +1,9 @@
+body {
+    font-family: 'poppins', sans-serif;
+    font-weight: bold
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}

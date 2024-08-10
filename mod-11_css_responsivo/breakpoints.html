@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=0, user-scalable=yes">
+        <title>Breakpoints</title>
+
+        <style>
+            body {
+                padding: 10px;
+            }
+
+            li {
+                list-style-type: none;
+            }
+
+            li img {
+                width: 100%;
+            }
+
+            @media screen and (min-width: 1198px) {
+                li {
+                    max-width: 33%;
+                    float: left;
+                }
+            }
+
+            @media screen and (orientation: portrait) {
+                body {
+                    background-color: blue;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <ul>
+        </ul>
+        <li>
+            <img src="./img/tennis.png" alt="Imagem de um tenis">
+            <h3>Tenis Trampki Nike</h3>
+        </li>
+        <li>
+            <img src="./img/tennis.png" alt="Imagem de um tenis">
+            <h3>Tenis Trampki Nike</h3>
+        </li>
+        <li>
+            <img src="./img/tennis.png" alt="Imagem de um tenis">
+            <h3>Tenis Trampki Nike</h3>
+        </li>
+
+    </body>
+
+</html>

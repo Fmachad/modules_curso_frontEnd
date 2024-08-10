@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Carousel</title>
+        <link rel="stylesheet" href="lib/bootstrap.min.css">
+        <style>
+            .container{
+                margin-top: 5em;
+                width:50%;
+                
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="3000" class="carousel-item active">
+                        <img class="d-block w-100"
+                            src="https://media.istockphoto.com/id/1181720308/pl/zdj%C4%99cie/globalna-koncepcja-biznesowa-i-magazyn%C3%B3w.jpg?s=612x612&w=0&k=20&c=kC-5hclzUygxmVtx0nHr3DiuIaZ9Z_xN5fA1mf-nflI=" />
+                        <div class="carousel-caption">
+                            <h2>Foto 01</h2>
+                        </div>
+                    </div>
+
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100"
+                            src="https://media.istockphoto.com/id/1179876881/pl/zdj%C4%99cie/t%C5%82o-du%C5%BCych-zbior%C3%B3w-danych.jpg?s=612x612&w=0&k=20&c=gMDCNgh4XGzqPC8SJOUtNBqdP_AW68aUKKOi874G3yw=" />
+                        <div class="carousel-caption">
+                            <h2>Foto 02</h2>
+                        </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100"
+                            src="https://media.istockphoto.com/id/1054372778/pl/zdj%C4%99cie/renderowanie-3d-du%C5%BCe-zbiory-danych-i-finanse.jpg?s=612x612&w=0&k=20&c=PJCWR4nQ4qxAJduCtFt53-MEtKwWReXFAn9hhIcVLOc=" />
+                        <div class="carousel-caption">
+                            <h2>Foto 03</h2>
+                        </div>
+                    </div>
+                </div>
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev"
+                    type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next"
+                    type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-exemplo" class="active"
+                        data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        </div>
+
+        <script src="./lib/bootstrap.bundle.min.js"></script>
+    </body>
+
+</html>
